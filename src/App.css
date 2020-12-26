@@ -51,3 +51,7 @@ body {
     #6b6b83
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.detailTitle {
+  color: white;
+}

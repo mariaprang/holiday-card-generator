@@ -1,13 +1,14 @@
 import Typography from "@material-ui/core/Typography";
 import logo from "./logo.svg";
-import "./App.css";
+import styles from "./App.css";
+import { green } from "@material-ui/core/colors";
+import { makeStyles } from "@material-ui/styles";
+import MainComponent from "./Components";
 
 function App() {
   return (
     <div className="App">
-      <Typography color="secondary" varian="h1">
-        Hello this is me
-      </Typography>
+      <MainComponent />
     </div>
   );
 }
